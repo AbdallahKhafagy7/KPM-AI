@@ -19,6 +19,7 @@ myenv/
 *.chroma/
 chroma_db/
 *.sqlite3
+/db
 
 # Distribution / packaging
 build/
