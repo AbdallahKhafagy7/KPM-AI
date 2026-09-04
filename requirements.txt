@@ -1,0 +1,27 @@
+# Core Core & Async Infrastructure
+fastapi
+uvicorn
+python-dotenv
+python-multipart
+pydantic>=2.9.2,<3.0.0
+httpx>=0.27.0
+
+# LangChain Ecosystem (v0.3.x alignment)
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.3.0
+langchain-ollama>=0.3.0
+langchain-huggingface>=0.3.0
+langchain-chroma>=0.2.0
+
+# LLM Providers & Embeddings
+openai>=1.50.0
+tiktoken
+sentence-transformers>=3.0.0
+
+# Document Loaders & Data Processing
+pypdf
+pdfplumber
+pandas
+unstructured[pdf]
